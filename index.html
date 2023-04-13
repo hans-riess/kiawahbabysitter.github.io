@@ -48,13 +48,45 @@ font-style: normal;
     width: 100%;
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9AEDDD;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fb9725;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1EAB90;
+}
+
 </style>
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head> 
 <body>
 
+<ul>
+	<li><a href="index.html">Home </a> </li>
+  <li><a href="calendar.html">Calendar</a></li>
+  <li style="float:right"><a href="index.html"><img src="images/transparent-cropped-logo.png" width="100" height="37" alt=""/></a></li>
+</ul>
+
 <header>
-	<h1  style="color:#fb9725; text-align: center; font-size: 48pt"> Kiawah Babysitter </h1>
+	<h1 style="color:#fb9725; text-align: center; font-size: 48pt"> Kiawah Babysitter </h1>
 	<h2 style="text-align: center"> We fill your sitting needs in Kiawah Island, South Carolina and the surrounding area.</h2>
 </header>
 	
